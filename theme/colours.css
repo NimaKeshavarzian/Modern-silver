@@ -723,8 +723,6 @@ Colours and backgrounds for buttons.css
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
 	border-color: #368AD2;
-	background-color: #368AD2;
-	color: #FFFFFF;
 }
 
 .dropdown-page-jump li {
