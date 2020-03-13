@@ -240,7 +240,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .site_logo {
-	background-image: url("./images/site_logo.png");
+	background-image: url("./images/site_logo.svg");
 }
 
 /* Horizontal lists
@@ -723,6 +723,8 @@ Colours and backgrounds for buttons.css
 
 .pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
 	border-color: #368AD2;
+	background-color: #368AD2;
+	color: #FFFFFF;
 }
 
 .dropdown-page-jump li {
@@ -851,18 +853,18 @@ ul.cplist {
 
 /* CP tabbed menu
 ----------------------------------------*/
-#tabs .tab > a {
+.tabs .tab > a {
 	background: #bfbfbf;
 	color: #536482;
 }
 
-#tabs .tab > a:hover {
+.tabs .tab > a:hover {
 	background: #6F91AD;
 	color: #D31141;
 }
 
-#tabs .activetab > a,
-#tabs .activetab > a:hover {
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
 	background: white;
 	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255, 255, 255, 1)), color-stop(50%,rgba(243, 243, 243, 1)), color-stop(51%,rgba(237, 237, 237, 1)), color-stop(100%,rgba(255, 255, 255, 1)));
@@ -874,7 +876,7 @@ ul.cplist {
     background-repeat: no-repeat;
 }
 
-#tabs .activetab > a:hover {
+.tabs .activetab > a:hover {
 	color: #000000;
 }
 
@@ -966,7 +968,7 @@ ul.cplist {
 
 /* Friends list */
 .cp-mini {
-	background-color: #eef5f9;
+		background-color: #EEF5F9;
 }
 
 dl.mini dt {
