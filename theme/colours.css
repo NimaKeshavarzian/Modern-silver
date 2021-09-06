@@ -852,7 +852,7 @@ Colours and backgrounds for buttons.css
 }
 
 .search-header {
-    box-shadow: 0 0 10px #ffffff;
+    box-shadow: 1px 1px 5px #9ad1ff, -1px -1px 5px #9ad1ff;
 }
 
 
