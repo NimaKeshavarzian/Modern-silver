@@ -1170,7 +1170,7 @@ ul.cplist {
 
 .minitabs .activetab>a,
 .minitabs .activetab>a:hover {
-    background-color: #bfbfb;
+    background-color: #bfbfbf;
     color: #333333;
 }
 
@@ -1632,24 +1632,18 @@ table {
     width: 100%;
 }
 
+tr {
+    box-shadow: 1px 1px 5px #e0e0e0, -1px -1px 5px #e0e0e0;
+}
+
 .stat-block {
     background: white;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(50%, rgba(243, 243, 243, 1)), color-stop(51%, rgba(237, 237, 237, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
     border: 1px solid #DFDFDF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #e0e0e0;
 }
 
 .stat-block2 {
     background: white;
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(50%, rgba(243, 243, 243, 1)), color-stop(51%, rgba(237, 237, 237, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
-    background: linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 50%, rgba(237, 237, 237, 1) 51%, rgba(255, 255, 255, 1) 100%);
     border: 1px solid #DFDFDF;
 }
